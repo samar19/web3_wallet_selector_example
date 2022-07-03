@@ -26,8 +26,39 @@ export default function Home() {
             <button type="button" class="sc-kLgntA mqBxb">
               <div class="sc-ezrdKe bAYFRD"></div>
           <div class="sc-bYEvPH khGBIg">
-        </div>Desconnect</button>
+        </div>desconnect</button>
       </div>
+
+      <div id="network">
+              <p>
+                <strong>Connected blockchain:</strong> <span id="network-name"></span>
+              </p>
+
+              <p>
+                <strong>Selected account:</strong> <span id="selected-account"></span>
+              </p>
+
+            </div>
+
+
+
+         
+
+            <h3>All account balances</h3>
+
+            <table class="table table-listing">
+              <thead>
+                <th>Address</th>
+                <th>ETH balance</th>
+              </thead>
+
+              <tbody id="accounts">
+              </tbody>
+            </table>
+
+            <p>Please try to switch between different accounts in your wallet if your wallet supports this functonality.</p>
+            
+
       </div>
       </div>
 
